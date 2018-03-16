@@ -3,7 +3,7 @@ package strategyPattern.ex2;
 /**
  * Author: Anthony Ritz
  * Project: 634-1 Patterns
- * Package: strategyPattern.ex2
+ * Package: strategyPattern.abstractFactory.ex2
  * Date: 3/2/2018
  */
 public class InsertionSort implements Sortable {

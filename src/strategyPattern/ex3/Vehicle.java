@@ -24,4 +24,12 @@ public class Vehicle implements Acceleratable, Stoppable {
     public void brake() {
         brake.brake();
     }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "engine=" + engine +
+                ", brake=" + brake +
+                '}';
+    }
 }

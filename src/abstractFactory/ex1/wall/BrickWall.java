@@ -1,4 +1,4 @@
-package abstractFactory.ex1;
+package abstractFactory.ex1.wall;
 
 /**
  * Author: Anthony Ritz

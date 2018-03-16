@@ -1,4 +1,4 @@
-package abstractFactory.ex1;
+package abstractFactory.ex1.wall;
 
 /**
  * Author: Anthony Ritz
@@ -7,6 +7,5 @@ package abstractFactory.ex1;
  * Date: 3/16/2018
  */
 public interface WallFactory {
-
-    Wall createWall(String house);
+    Wall createWall();
 }

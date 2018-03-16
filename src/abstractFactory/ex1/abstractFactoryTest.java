@@ -1,5 +1,8 @@
 package abstractFactory.ex1;
 
+import abstractFactory.ex1.house.House;
+import abstractFactory.ex1.house.HouseFactory;
+
 /**
  * Author: Anthony Ritz
  * Project: 634-1 Patterns
@@ -9,15 +12,16 @@ package abstractFactory.ex1;
 public class abstractFactoryTest {
 
     public static void main(String[] args) {
-        HouseFactory houseFactory = new ConcreteHouseFactory(new ConcreteWallFactory());
-
-        House house1 = houseFactory.createHouse("BricksHouse");
+        HouseFactory houseFactory1 = new WoodHouseFactory();
+        House house1 = houseFactory1.buildHouse();
         System.out.println(house1);
 
-        House house2 = houseFactory.createHouse("WoodHouse");
+        HouseFactory houseFactory2 = new BricksHouseFactory();
+        House house2 = houseFactory2.buildHouse();
         System.out.println(house2);
 
-        House house3 = houseFactory.createHouse("GlassHouse");
+        HouseFactory houseFactory3 = new GlassHouseFactory();
+        House house3 = houseFactory3.buildHouse();
         System.out.println(house3);
     }
 }

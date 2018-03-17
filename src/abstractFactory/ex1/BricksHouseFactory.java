@@ -7,7 +7,6 @@ import abstractFactory.ex1.house.House;
 import abstractFactory.ex1.house.HouseFactory;
 import abstractFactory.ex1.wall.BrickWall;
 import abstractFactory.ex1.wall.Wall;
-import abstractFactory.ex1.window.BigWindow;
 import abstractFactory.ex1.window.StructureWindow;
 import abstractFactory.ex1.window.Window;
 

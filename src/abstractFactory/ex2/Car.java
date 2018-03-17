@@ -8,15 +8,21 @@ package abstractFactory.ex2;
  */
 public abstract class Car {
     private String name;
+    private Engine engine;
 
     public Car(String name) {
         this.name = name;
+    }
+
+    public void setEngine(Engine engine) {
+        this.engine = engine;
     }
 
     @Override
     public String toString() {
         return "Car{" +
                 "name='" + name + '\'' +
+                ", engine=" + engine +
                 '}';
     }
 }

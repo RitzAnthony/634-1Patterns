@@ -8,15 +8,16 @@ package abstractFactory.ex2;
  */
 public class CarFactoryTest {
     public static void main(String[] args) {
-        AbstractCarFactory carFactory = new ConcreteCarFactory();
-
-        Car car1 = carFactory.createCar("Minivan");
+        AbstractCarFactory carFactory1 = new PickupFactory();
+        Car car1 = carFactory1.buildCar();
         System.out.println(car1);
 
-        Car car2 = carFactory.createCar("Pickup");
+        AbstractCarFactory carFactory2 = new CoupeFactory();
+        Car car2 = carFactory2.buildCar();
         System.out.println(car2);
 
-        Car car3 = carFactory.createCar("Coupe");
+        AbstractCarFactory carFactory3 = new MinivanFactory();
+        Car car3 = carFactory3.buildCar();
         System.out.println(car3);
     }
 }

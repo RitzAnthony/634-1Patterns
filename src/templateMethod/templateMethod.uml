@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>templateMethod</OriginalElement>
+  <nodes>
+    <node x="0.0" y="167.0">templateMethod.DinnerTest</node>
+    <node x="0.0" y="86.0">templateMethod.SteakDinner</node>
+    <node x="18.0" y="0.0">templateMethod.Dinner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="templateMethod.SteakDinner" target="templateMethod.Dinner">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="70.5" y="101.5" />
+  <SelectedNodes>
+    <node>templateMethod.DinnerTest</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

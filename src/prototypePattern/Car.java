@@ -1,9 +1,9 @@
-package abstractFactory.prototypePattern;
+package prototypePattern;
 
 /**
  * Author: Anthony Ritz
  * Project: 634-1 Patterns
- * Package: abstractFactory.prototypePattern
+ * Package: prototypePattern
  * Date: 3/22/2018
  */
 public class Car implements Cloneable {

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>adapterPattern.ex1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="86.0">adapterPattern.ex1.ConcreteQueue</node>
+    <node x="200.0" y="167.0">adapterPattern.ex1.AdapterTest</node>
+    <node x="19.5" y="0.0">adapterPattern.ex1.MyQueue</node>
+    <node x="0.0" y="253.0">adapterPattern.ex1.ConcreteStack</node>
+    <node x="19.5" y="167.0">adapterPattern.ex1.MyStack</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="adapterPattern.ex1.ConcreteQueue" target="adapterPattern.ex1.MyQueue">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="adapterPattern.ex1.ConcreteStack" target="adapterPattern.ex1.MyStack">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="171.0" y="144.5" />
+  <SelectedNodes>
+    <node>adapterPattern.ex1.MyQueue</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

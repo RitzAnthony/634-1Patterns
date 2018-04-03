@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>commandPattern.ex1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="167.0">commandPattern.ex1.MobilePhone</node>
+    <node x="0.0" y="0.0">commandPattern.ex1.ICommand</node>
+    <node x="17.0" y="86.0">commandPattern.ex1.Game</node>
+    <node x="194.0" y="167.0">commandPattern.ex1.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="commandPattern.ex1.Game" target="commandPattern.ex1.ICommand">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="138.5" y="101.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

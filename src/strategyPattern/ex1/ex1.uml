@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>strategyPattern.ex1</OriginalElement>
+  <nodes>
+    <node x="249.74999999999997" y="0.0">strategyPattern.ex1.WeaponBehavior</node>
+    <node x="180.99999999999997" y="86.0">strategyPattern.ex1.AxeBehavior</node>
+    <node x="345.0" y="86.0">strategyPattern.ex1.KnifeBehavior</node>
+    <node x="163.0" y="167.0">strategyPattern.ex1.Character</node>
+    <node x="518.0" y="86.0">strategyPattern.ex1.ArrowAndBowBehavior</node>
+    <node x="346.0" y="253.0">strategyPattern.ex1.Knight</node>
+    <node x="0.0" y="86.0">strategyPattern.ex1.SwordBehavior</node>
+    <node x="235.0" y="253.0">strategyPattern.ex1.King</node>
+    <node x="495.0" y="167.0">strategyPattern.ex1.TestExercise1</node>
+    <node x="124.0" y="253.0">strategyPattern.ex1.Troll</node>
+    <node x="0.0" y="253.0">strategyPattern.ex1.Queen</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategyPattern.ex1.SwordBehavior" target="strategyPattern.ex1.WeaponBehavior">
+      <point x="0.0" y="-18.0" />
+      <point x="80.5" y="56.0" />
+      <point x="271.625" y="56.0" />
+      <point x="-65.625" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex1.Knight" target="strategyPattern.ex1.Character">
+      <point x="0.0" y="-18.0" />
+      <point x="398.0" y="223.0" />
+      <point x="271.5" y="223.0" />
+      <point x="46.5" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex1.Troll" target="strategyPattern.ex1.Character">
+      <point x="0.0" y="-18.0" />
+      <point x="169.5" y="233.0" />
+      <point x="209.5" y="233.0" />
+      <point x="-15.5" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex1.ArrowAndBowBehavior" target="strategyPattern.ex1.WeaponBehavior">
+      <point x="0.0" y="-18.0" />
+      <point x="625.5" y="56.0" />
+      <point x="402.875" y="56.0" />
+      <point x="65.625" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex1.KnifeBehavior" target="strategyPattern.ex1.WeaponBehavior">
+      <point x="0.0" y="-18.0" />
+      <point x="421.5" y="66.0" />
+      <point x="359.125" y="66.0" />
+      <point x="21.875" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex1.King" target="strategyPattern.ex1.Character">
+      <point x="0.0" y="-18.0" />
+      <point x="280.5" y="233.0" />
+      <point x="240.5" y="233.0" />
+      <point x="15.5" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex1.Queen" target="strategyPattern.ex1.Character">
+      <point x="0.0" y="-18.0" />
+      <point x="52.0" y="223.0" />
+      <point x="178.5" y="223.0" />
+      <point x="-46.5" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex1.AxeBehavior" target="strategyPattern.ex1.WeaponBehavior">
+      <point x="0.0" y="-18.0" />
+      <point x="252.99999999999997" y="66.0" />
+      <point x="315.375" y="66.0" />
+      <point x="-21.875" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="366.5" y="144.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

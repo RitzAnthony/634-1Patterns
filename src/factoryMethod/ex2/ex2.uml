@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factoryMethod.ex2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="86.0">factoryMethod.ex2.GermanHouse</node>
+    <node x="175.0" y="86.0">factoryMethod.ex2.DutchHouse</node>
+    <node x="337.0" y="86.0">factoryMethod.ex2.Chalet</node>
+    <node x="255.0" y="167.0">factoryMethod.ex2.HouseFactoryTest</node>
+    <node x="29.5" y="167.0">factoryMethod.ex2.HouseFactory</node>
+    <node x="194.5" y="0.0">factoryMethod.ex2.House</node>
+    <node x="0.0" y="253.0">factoryMethod.ex2.ConcreteHouseFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factoryMethod.ex2.DutchHouse" target="factoryMethod.ex2.House">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="factoryMethod.ex2.ConcreteHouseFactory" target="factoryMethod.ex2.HouseFactory">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="factoryMethod.ex2.Chalet" target="factoryMethod.ex2.House">
+      <point x="0.0" y="-18.0" />
+      <point x="388.5" y="61.0" />
+      <point x="280.33333333333337" y="61.0" />
+      <point x="34.33333333333334" y="18.0" />
+    </edge>
+    <edge source="factoryMethod.ex2.GermanHouse" target="factoryMethod.ex2.House">
+      <point x="0.0" y="-18.0" />
+      <point x="77.5" y="61.0" />
+      <point x="211.66666666666666" y="61.0" />
+      <point x="-34.33333333333334" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="102.0" />
+  <SelectedNodes>
+    <node>factoryMethod.ex2.GermanHouse</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

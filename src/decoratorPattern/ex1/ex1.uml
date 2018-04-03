@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>decoratorPattern.ex1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="253.0">decoratorPattern.ex1.CarDecoratorLauncher</node>
+    <node x="630.0" y="172.0">decoratorPattern.ex1.AntiSlidingSystemDecorator</node>
+    <node x="729.5" y="86.0">decoratorPattern.ex1.CarSport</node>
+    <node x="184.0" y="172.0">decoratorPattern.ex1.EngineDecorator</node>
+    <node x="588.5" y="86.0">decoratorPattern.ex1.CarBerlin</node>
+    <node x="868.5" y="86.0">decoratorPattern.ex1.CarBreak</node>
+    <node x="898.0" y="172.0">decoratorPattern.ex1.AirbagDecorator</node>
+    <node x="377.0" y="172.0">decoratorPattern.ex1.BreakingSystemDecorator</node>
+    <node x="418.5" y="86.0">decoratorPattern.ex1.CarDecorator</node>
+    <node x="677.5" y="0.0">decoratorPattern.ex1.Car</node>
+    <node x="0.0" y="172.0">decoratorPattern.ex1.ColorDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="decoratorPattern.ex1.CarDecorator" target="decoratorPattern.ex1.Car">
+      <point x="0.0" y="-18.0" />
+      <point x="493.5" y="56.0" />
+      <point x="687.875" y="56.0" />
+      <point x="-31.125" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex1.EngineDecorator" target="decoratorPattern.ex1.CarDecorator">
+      <point x="0.0" y="-18.0" />
+      <point x="270.5" y="152.0" />
+      <point x="463.5" y="152.0" />
+      <point x="-30.0" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex1.ColorDecorator" target="decoratorPattern.ex1.CarDecorator">
+      <point x="0.0" y="-18.0" />
+      <point x="82.0" y="142.0" />
+      <point x="433.5" y="142.0" />
+      <point x="-60.0" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex1.BreakingSystemDecorator" target="decoratorPattern.ex1.CarDecorator">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex1.CarBreak" target="decoratorPattern.ex1.Car">
+      <point x="0.0" y="-18.0" />
+      <point x="928.5" y="56.0" />
+      <point x="750.125" y="56.0" />
+      <point x="31.125" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex1.CarBerlin" target="decoratorPattern.ex1.Car">
+      <point x="0.0" y="-18.0" />
+      <point x="649.0" y="66.0" />
+      <point x="708.625" y="66.0" />
+      <point x="-10.375" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex1.AntiSlidingSystemDecorator" target="decoratorPattern.ex1.CarDecorator">
+      <point x="0.0" y="-18.0" />
+      <point x="754.0" y="152.0" />
+      <point x="523.5" y="152.0" />
+      <point x="30.0" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex1.AirbagDecorator" target="decoratorPattern.ex1.CarDecorator">
+      <point x="0.0" y="-18.0" />
+      <point x="984.5" y="142.0" />
+      <point x="553.5" y="142.0" />
+      <point x="60.0" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex1.CarSport" target="decoratorPattern.ex1.Car">
+      <point x="0.0" y="-18.0" />
+      <point x="789.0" y="66.0" />
+      <point x="729.375" y="66.0" />
+      <point x="10.375" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="535.5" y="144.5" />
+  <SelectedNodes>
+    <node>decoratorPattern.ex1.CarDecoratorLauncher</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

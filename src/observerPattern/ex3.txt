@@ -1,0 +1,2 @@
+3. Das grosse Problem an der Klasse Observeable ist, dass es eine Klass und kein Interface ist. 
+Wenn ich also eine Klasse habe, die ich zusätzlich überwachen (observe) möchte, gibt es nur die Möglichkeit ein Interface zu implementieren und das Pattern selber zu implementieren.

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>decoratorPattern.ex2</OriginalElement>
+  <nodes>
+    <node x="443.0" y="172.0">decoratorPattern.ex2.Skipass</node>
+    <node x="186.5" y="89.0">decoratorPattern.ex2.JourneyDecorator</node>
+    <node x="105.0" y="172.0">decoratorPattern.ex2.Wellnessservice</node>
+    <node x="289.0" y="172.0">decoratorPattern.ex2.Hotelroom</node>
+    <node x="380.5" y="86.0">decoratorPattern.ex2.IranJourney</node>
+    <node x="0.0" y="172.0">decoratorPattern.ex2.Flat</node>
+    <node x="304.5" y="0.0">decoratorPattern.ex2.Journey</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="decoratorPattern.ex2.Hotelroom" target="decoratorPattern.ex2.JourneyDecorator">
+      <point x="0.0" y="-18.0" />
+      <point x="356.0" y="152.0" />
+      <point x="293.75" y="152.0" />
+      <point x="22.24999999999997" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex2.Flat" target="decoratorPattern.ex2.JourneyDecorator">
+      <point x="0.0" y="-18.0" />
+      <point x="42.5" y="142.0" />
+      <point x="204.75" y="142.0" />
+      <point x="-66.75" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex2.Wellnessservice" target="decoratorPattern.ex2.JourneyDecorator">
+      <point x="0.0" y="-18.0" />
+      <point x="187.0" y="152.0" />
+      <point x="249.25" y="152.0" />
+      <point x="-22.25" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex2.IranJourney" target="decoratorPattern.ex2.Journey">
+      <point x="0.0" y="-18.0" />
+      <point x="448.5" y="61.0" />
+      <point x="387.75" y="61.0" />
+      <point x="27.75" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex2.JourneyDecorator" target="decoratorPattern.ex2.Journey">
+      <point x="-2.8421709430404007E-14" y="-18.0" />
+      <point x="271.5" y="61.0" />
+      <point x="332.25" y="61.0" />
+      <point x="-27.75" y="18.0" />
+    </edge>
+    <edge source="decoratorPattern.ex2.Skipass" target="decoratorPattern.ex2.JourneyDecorator">
+      <point x="0.0" y="-18.0" />
+      <point x="497.5" y="142.0" />
+      <point x="338.25" y="142.0" />
+      <point x="66.74999999999997" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="276.0" y="104.0" />
+  <SelectedNodes>
+    <node>decoratorPattern.ex2.JourneyDecorator</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

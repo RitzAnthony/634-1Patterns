@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>abstractFactory.ex1.abstractFactoryTest</OriginalElement>
+  <nodes>
+    <node x="164.0" y="339.0">abstractFactory.ex1.house.BricksHouse</node>
+    <node x="152.0" y="506.0">abstractFactory.ex1.wall.GlassWall</node>
+    <node x="297.0" y="506.0">abstractFactory.ex1.wall.BrickWall</node>
+    <node x="205.0" y="172.0">abstractFactory.ex1.BricksHouseFactory</node>
+    <node x="660.0" y="506.0">abstractFactory.ex1.window.BigWindow</node>
+    <node x="224.0" y="86.0">abstractFactory.ex1.house.HouseFactory</node>
+    <node x="217.82142857142856" y="0.0">abstractFactory.ex1.window.WindowFactory</node>
+    <node x="92.25" y="587.0">abstractFactory.ex1.door.Door</node>
+    <node x="465.0" y="506.0">abstractFactory.ex1.window.StructureWindow</node>
+    <node x="152.0" y="673.0">abstractFactory.ex1.door.ThinDoor</node>
+    <node x="414.0" y="172.0">abstractFactory.ex1.WoodHouseFactory</node>
+    <node x="582.75" y="420.0">abstractFactory.ex1.window.Window</node>
+    <node x="0.0" y="172.0">abstractFactory.ex1.GlassHouseFactory</node>
+    <node x="401.82142857142856" y="0.0">abstractFactory.ex1.door.DoorFactory</node>
+    <node x="325.0" y="339.0">abstractFactory.ex1.house.GlassHouse</node>
+    <node x="0.0" y="339.0">abstractFactory.ex1.house.WoodHouse</node>
+    <node x="320.0" y="587.0">abstractFactory.ex1.abstractFactoryTest</node>
+    <node x="0.0" y="673.0">abstractFactory.ex1.door.LargeDoor</node>
+    <node x="169.0" y="420.0">abstractFactory.ex1.wall.Wall</node>
+    <node x="0.0" y="506.0">abstractFactory.ex1.wall.WoodWall</node>
+    <node x="183.0" y="253.0">abstractFactory.ex1.house.House</node>
+    <node x="58.821428571428555" y="0.0">abstractFactory.ex1.wall.WallFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="abstractFactory.ex1.wall.GlassWall" target="abstractFactory.ex1.wall.Wall">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.house.BricksHouse" target="abstractFactory.ex1.house.House">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.door.ThinDoor" target="abstractFactory.ex1.door.Door">
+      <point x="0.0" y="-18.0" />
+      <point x="213.5" y="648.0" />
+      <point x="163.5" y="648.0" />
+      <point x="23.75" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.house.HouseFactory" target="abstractFactory.ex1.door.DoorFactory">
+      <point x="50.333333333333314" y="-18.0" />
+      <point x="349.8333333333333" y="61.0" />
+      <point x="473.32142857142856" y="61.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.house.GlassHouse" target="abstractFactory.ex1.house.House">
+      <point x="0.0" y="-18.0" />
+      <point x="393.5" y="314.0" />
+      <point x="268.83333333333337" y="314.0" />
+      <point x="34.33333333333337" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.window.BigWindow" target="abstractFactory.ex1.window.Window">
+      <point x="0.0" y="-18.0" />
+      <point x="729.0" y="481.0" />
+      <point x="669.75" y="481.0" />
+      <point x="29.0" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.window.StructureWindow" target="abstractFactory.ex1.window.Window">
+      <point x="0.0" y="-18.0" />
+      <point x="552.5" y="481.0" />
+      <point x="611.75" y="481.0" />
+      <point x="-29.0" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.house.HouseFactory" target="abstractFactory.ex1.wall.WallFactory">
+      <point x="-50.33333333333334" y="-18.0" />
+      <point x="249.16666666666666" y="61.0" />
+      <point x="128.32142857142856" y="61.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.WoodHouseFactory" target="abstractFactory.ex1.house.HouseFactory">
+      <point x="0.0" y="-18.0" />
+      <point x="510.0" y="147.0" />
+      <point x="349.83333333333337" y="147.0" />
+      <point x="50.33333333333337" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.house.HouseFactory" target="abstractFactory.ex1.window.WindowFactory">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.BricksHouseFactory" target="abstractFactory.ex1.house.HouseFactory">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.GlassHouseFactory" target="abstractFactory.ex1.house.HouseFactory">
+      <point x="0.0" y="-18.0" />
+      <point x="92.5" y="147.0" />
+      <point x="249.16666666666666" y="147.0" />
+      <point x="-50.33333333333334" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.wall.BrickWall" target="abstractFactory.ex1.wall.Wall">
+      <point x="0.0" y="-18.0" />
+      <point x="358.5" y="481.0" />
+      <point x="244.83333333333331" y="481.0" />
+      <point x="30.333333333333314" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.door.LargeDoor" target="abstractFactory.ex1.door.Door">
+      <point x="0.0" y="-18.0" />
+      <point x="66.0" y="648.0" />
+      <point x="116.0" y="648.0" />
+      <point x="-23.75" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.house.WoodHouse" target="abstractFactory.ex1.house.House">
+      <point x="0.0" y="-18.0" />
+      <point x="72.0" y="314.0" />
+      <point x="200.16666666666666" y="314.0" />
+      <point x="-34.33333333333334" y="18.0" />
+    </edge>
+    <edge source="abstractFactory.ex1.wall.WoodWall" target="abstractFactory.ex1.wall.Wall">
+      <point x="0.0" y="-18.0" />
+      <point x="66.0" y="481.0" />
+      <point x="184.16666666666666" y="481.0" />
+      <point x="-30.333333333333343" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8052126200274349" x="399.9735945485519" y="114.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>strategyPattern.ex2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="167.0">strategyPattern.ex2.StrategySortLauncher</node>
+    <node x="230.0" y="0.0">strategyPattern.ex2.Sortable</node>
+    <node x="0.0" y="86.0">strategyPattern.ex2.SelectionSort</node>
+    <node x="445.0" y="86.0">strategyPattern.ex2.InsertionSort</node>
+    <node x="168.28571428571422" y="84.14285714285714">strategyPattern.ex2.Sorter</node>
+    <node x="290.0" y="86.0">strategyPattern.ex2.BubbleSort</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategyPattern.ex2.BubbleSort" target="strategyPattern.ex2.Sortable">
+      <point x="0.0" y="-18.0" />
+      <point x="357.5" y="66.0" />
+      <point x="303.125" y="66.0" />
+      <point x="14.625" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex2.SelectionSort" target="strategyPattern.ex2.Sortable">
+      <point x="0.0" y="-18.0" />
+      <point x="74.5" y="56.0" />
+      <point x="244.625" y="56.0" />
+      <point x="-43.875" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex2.Sorter" target="strategyPattern.ex2.Sortable">
+      <point x="0.0" y="-18.0" />
+      <point x="219.5" y="66.0" />
+      <point x="273.875" y="66.0" />
+      <point x="-14.625" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex2.InsertionSort" target="strategyPattern.ex2.Sortable">
+      <point x="0.0" y="-18.0" />
+      <point x="517.5" y="56.0" />
+      <point x="332.375" y="56.0" />
+      <point x="43.875" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="360.0" y="101.5" />
+  <SelectedNodes>
+    <node>strategyPattern.ex2.Sorter</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

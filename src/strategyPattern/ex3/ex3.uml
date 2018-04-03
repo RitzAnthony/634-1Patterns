@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>strategyPattern.ex3</OriginalElement>
+  <nodes>
+    <node x="0.0" y="86.0">strategyPattern.ex3.GasolineEngine</node>
+    <node x="479.0" y="86.0">strategyPattern.ex3.DiscBrake</node>
+    <node x="477.0" y="0.0">strategyPattern.ex3.Stoppable</node>
+    <node x="0.0" y="167.0">strategyPattern.ex3.TestVehicle</node>
+    <node x="183.0" y="86.0">strategyPattern.ex3.DieselEngine</node>
+    <node x="625.0" y="86.0">strategyPattern.ex3.DrumBrake</node>
+    <node x="180.5" y="0.0">strategyPattern.ex3.Acceleratable</node>
+    <node x="352.0" y="151.0">strategyPattern.ex3.Vehicle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategyPattern.ex3.Vehicle" target="strategyPattern.ex3.Acceleratable">
+      <point x="-27.25" y="-18.0" />
+      <point x="377.25" y="61.0" />
+      <point x="307.16666666666663" y="61.0" />
+      <point x="50.66666666666663" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex3.DieselEngine" target="strategyPattern.ex3.Acceleratable">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex3.DrumBrake" target="strategyPattern.ex3.Stoppable">
+      <point x="0.0" y="-18.0" />
+      <point x="692.5" y="61.0" />
+      <point x="585.3333333333334" y="61.0" />
+      <point x="43.33333333333337" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex3.GasolineEngine" target="strategyPattern.ex3.Acceleratable">
+      <point x="0.0" y="-18.0" />
+      <point x="81.5" y="61.0" />
+      <point x="205.83333333333334" y="61.0" />
+      <point x="-50.66666666666666" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex3.Vehicle" target="strategyPattern.ex3.Stoppable">
+      <point x="27.25" y="-18.0" />
+      <point x="431.75" y="61.0" />
+      <point x="498.6666666666667" y="61.0" />
+      <point x="-43.333333333333314" y="18.0" />
+    </edge>
+    <edge source="strategyPattern.ex3.DiscBrake" target="strategyPattern.ex3.Stoppable">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="380.0" y="101.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

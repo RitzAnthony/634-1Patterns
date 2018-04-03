@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>compositePattern</OriginalElement>
+  <nodes>
+    <node x="52.25" y="0.0">compositePattern.PlayerComponent</node>
+    <node x="0.0" y="86.0">compositePattern.PlayerGroup</node>
+    <node x="162.0" y="86.0">compositePattern.Player</node>
+    <node x="0.0" y="167.0">compositePattern.PlayerComponentTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="compositePattern.PlayerGroup" target="compositePattern.PlayerComponent">
+      <point x="0.0" y="-18.0" />
+      <point x="71.0" y="61.0" />
+      <point x="97.0" y="61.0" />
+      <point x="-44.75" y="18.0" />
+    </edge>
+    <edge source="compositePattern.Player" target="compositePattern.PlayerComponent">
+      <point x="0.0" y="-18.0" />
+      <point x="212.5" y="61.0" />
+      <point x="186.5" y="61.0" />
+      <point x="44.75" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="131.5" y="101.5" />
+  <SelectedNodes>
+    <node>compositePattern.Player</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

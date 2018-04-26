@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>proxyPattern</OriginalElement>
+  <nodes>
+    <node x="169.0" y="167.0">proxyPattern.User</node>
+    <node x="202.0" y="0.0">proxyPattern.Debiting</node>
+    <node x="188.0" y="86.0">proxyPattern.BankAccount</node>
+    <node x="355.0" y="86.0">proxyPattern.ProxyPaypal</node>
+    <node x="0.0" y="167.0">proxyPattern.ProxyTest</node>
+    <node x="0.0" y="86.0">proxyPattern.ProxyCreditCard</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="proxyPattern.ProxyCreditCard" target="proxyPattern.Debiting">
+      <point x="0.0" y="-18.0" />
+      <point x="84.0" y="61.0" />
+      <point x="221.83333333333334" y="61.0" />
+      <point x="-39.66666666666666" y="18.0" />
+    </edge>
+    <edge source="proxyPattern.BankAccount" target="proxyPattern.Debiting">
+      <point x="0.0" y="-18.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="proxyPattern.ProxyPaypal" target="proxyPattern.Debiting">
+      <point x="0.0" y="-18.0" />
+      <point x="425.5" y="61.0" />
+      <point x="301.16666666666663" y="61.0" />
+      <point x="39.66666666666663" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="248.0" y="101.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

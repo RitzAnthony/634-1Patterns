@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Diagram>
   <ID>JAVA</ID>
-  <OriginalElement>compositePattern</OriginalElement>
+  <OriginalElement>compositePattern.ex1</OriginalElement>
   <nodes>
-    <node x="52.25" y="0.0">compositePattern.PlayerComponent</node>
-    <node x="0.0" y="86.0">compositePattern.PlayerGroup</node>
-    <node x="162.0" y="86.0">compositePattern.Player</node>
-    <node x="0.0" y="167.0">compositePattern.PlayerComponentTest</node>
+    <node x="57.0" y="0.0">compositePattern.ex1.PlayerComponent</node>
+    <node x="0.0" y="171.0">compositePattern.ex1.PlayerComponentTest</node>
+    <node x="169.0" y="88.0">compositePattern.ex1.Player</node>
+    <node x="0.0" y="87.0">compositePattern.ex1.PlayerGroup</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="compositePattern.PlayerGroup" target="compositePattern.PlayerComponent">
-      <point x="0.0" y="-18.0" />
-      <point x="71.0" y="61.0" />
-      <point x="97.0" y="61.0" />
-      <point x="-44.75" y="18.0" />
+    <edge source="compositePattern.ex1.PlayerGroup" target="compositePattern.ex1.PlayerComponent">
+      <point x="0.0" y="-19.5" />
+      <point x="74.5" y="62.0" />
+      <point x="102.25" y="62.0" />
+      <point x="-45.25" y="18.5" />
     </edge>
-    <edge source="compositePattern.Player" target="compositePattern.PlayerComponent">
-      <point x="0.0" y="-18.0" />
-      <point x="212.5" y="61.0" />
-      <point x="186.5" y="61.0" />
-      <point x="44.75" y="18.0" />
+    <edge source="compositePattern.ex1.Player" target="compositePattern.ex1.PlayerComponent">
+      <point x="0.0" y="-18.5" />
+      <point x="220.5" y="62.0" />
+      <point x="192.75" y="62.0" />
+      <point x="45.25" y="18.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="131.5" y="101.5" />
-  <SelectedNodes>
-    <node>compositePattern.Player</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="104.0" />
+  <SelectedNodes />
   <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

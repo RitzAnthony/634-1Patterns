@@ -3,74 +3,78 @@
   <ID>JAVA</ID>
   <OriginalElement>abstractFactory.ex2</OriginalElement>
   <nodes>
-    <node x="0.0" y="506.0">abstractFactory.ex2.DieselEngine</node>
-    <node x="175.5" y="0.0">abstractFactory.ex2.EngineFactory</node>
-    <node x="0.0" y="172.0">abstractFactory.ex2.PickupFactory</node>
-    <node x="0.0" y="339.0">abstractFactory.ex2.Pickup</node>
-    <node x="248.0" y="339.0">abstractFactory.ex2.Minivan</node>
-    <node x="124.0" y="339.0">abstractFactory.ex2.Coupe</node>
-    <node x="108.0" y="420.0">abstractFactory.ex2.Engine</node>
-    <node x="375.0" y="420.0">abstractFactory.ex2.CarFactoryTest</node>
-    <node x="353.0" y="172.0">abstractFactory.ex2.CoupeFactory</node>
-    <node x="159.5" y="86.0">abstractFactory.ex2.AbstractCarFactory</node>
-    <node x="172.0" y="172.0">abstractFactory.ex2.MinivanFactory</node>
-    <node x="134.5" y="253.0">abstractFactory.ex2.Car</node>
-    <node x="167.0" y="506.0">abstractFactory.ex2.GasolineEngine</node>
+    <node x="406.0" y="571.0">abstractFactory.ex2.DieselEngine</node>
+    <node x="253.0" y="0.0">abstractFactory.ex2.EngineFactory</node>
+    <node x="0.0" y="571.0">abstractFactory.ex2.Pickup</node>
+    <node x="0.0" y="288.0">abstractFactory.ex2.PickupFactory</node>
+    <node x="248.0" y="571.0">abstractFactory.ex2.Minivan</node>
+    <node x="124.0" y="571.0">abstractFactory.ex2.Coupe</node>
+    <node x="465.5" y="427.0">abstractFactory.ex2.Engine</node>
+    <node x="0.0" y="652.0">abstractFactory.ex2.CarFactoryTest</node>
+    <node x="253.0" y="288.0">abstractFactory.ex2.CoupeFactory</node>
+    <node x="253.0" y="115.0">abstractFactory.ex2.AbstractCarFactory</node>
+    <node x="506.0" y="288.0">abstractFactory.ex2.MinivanFactory</node>
+    <node x="56.0" y="427.0">abstractFactory.ex2.Car</node>
+    <node x="573.0" y="571.0">abstractFactory.ex2.GasolineEngine</node>
   </nodes>
   <notes />
   <edges>
     <edge source="abstractFactory.ex2.Pickup" target="abstractFactory.ex2.Car">
       <point x="0.0" y="-18.0" />
-      <point x="52.0" y="314.0" />
-      <point x="148.33333333333334" y="314.0" />
-      <point x="-27.666666666666657" y="18.0" />
+      <point x="52.0" y="546.0" />
+      <point x="96.0" y="546.0" />
+      <point x="-80.0" y="47.0" />
     </edge>
     <edge source="abstractFactory.ex2.AbstractCarFactory" target="abstractFactory.ex2.EngineFactory">
-      <point x="0.0" y="-18.0" />
-      <point x="0.0" y="18.0" />
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="32.5" />
     </edge>
     <edge source="abstractFactory.ex2.Minivan" target="abstractFactory.ex2.Car">
       <point x="0.0" y="-18.0" />
-      <point x="304.5" y="314.0" />
-      <point x="203.66666666666669" y="314.0" />
-      <point x="27.666666666666686" y="18.0" />
+      <point x="304.5" y="546.0" />
+      <point x="256.0" y="546.0" />
+      <point x="80.0" y="47.0" />
     </edge>
     <edge source="abstractFactory.ex2.GasolineEngine" target="abstractFactory.ex2.Engine">
       <point x="0.0" y="-18.0" />
-      <point x="248.5" y="481.0" />
-      <point x="187.5" y="481.0" />
-      <point x="26.5" y="18.0" />
+      <point x="654.5" y="546.0" />
+      <point x="617.75" y="546.0" />
+      <point x="50.75" y="47.0" />
     </edge>
     <edge source="abstractFactory.ex2.Coupe" target="abstractFactory.ex2.Car">
       <point x="0.0" y="-18.0" />
-      <point x="0.0" y="18.0" />
-    </edge>
-    <edge source="abstractFactory.ex2.PickupFactory" target="abstractFactory.ex2.AbstractCarFactory">
-      <point x="0.0" y="-18.0" />
-      <point x="76.0" y="147.0" />
-      <point x="190.5" y="147.0" />
-      <point x="-62.0" y="18.0" />
+      <point x="0.0" y="47.0" />
     </edge>
     <edge source="abstractFactory.ex2.MinivanFactory" target="abstractFactory.ex2.AbstractCarFactory">
-      <point x="0.0" y="-18.0" />
-      <point x="0.0" y="18.0" />
+      <point x="0.0" y="-47.0" />
+      <point x="622.5" y="263.0" />
+      <point x="447.1666666666667" y="263.0" />
+      <point x="77.66666666666669" y="61.5" />
+    </edge>
+    <edge source="abstractFactory.ex2.PickupFactory" target="abstractFactory.ex2.AbstractCarFactory">
+      <point x="0.0" y="-47.0" />
+      <point x="116.5" y="263.0" />
+      <point x="291.8333333333333" y="263.0" />
+      <point x="-77.66666666666669" y="61.5" />
     </edge>
     <edge source="abstractFactory.ex2.DieselEngine" target="abstractFactory.ex2.Engine">
       <point x="0.0" y="-18.0" />
-      <point x="73.5" y="481.0" />
-      <point x="134.5" y="481.0" />
-      <point x="-26.5" y="18.0" />
+      <point x="479.5" y="546.0" />
+      <point x="516.25" y="546.0" />
+      <point x="-50.75" y="47.0" />
     </edge>
     <edge source="abstractFactory.ex2.CoupeFactory" target="abstractFactory.ex2.AbstractCarFactory">
-      <point x="0.0" y="-18.0" />
-      <point x="429.0" y="147.0" />
-      <point x="314.5" y="147.0" />
-      <point x="62.0" y="18.0" />
+      <point x="0.0" y="-47.0" />
+      <point x="0.0" y="61.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="266.5" y="91.5" />
-  <SelectedNodes />
-  <Categories />
+  <settings layout="Hierarchic Group" zoom="1.0" x="267.0" y="333.5" />
+  <SelectedNodes>
+    <node>abstractFactory.ex2.DieselEngine</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>

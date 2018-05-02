@@ -26,5 +26,6 @@ public class ProxyTest {
         System.out.println("Current state of the account: " + bankAccount.getMoneyAmount());
 
 
+
     }
 }

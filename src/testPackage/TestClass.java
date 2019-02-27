@@ -12,6 +12,8 @@ public class TestClass {
         b.print();
 
         a.print();
+
+        System.out.println("Hello");
     }
 
 
